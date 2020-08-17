@@ -23,7 +23,7 @@ namespace TransportLy
 
                 List<FlightOrder> flightOrders = scheduler.ScheduleFlightOrders(flights);
 
-                Console.WriteLine("\n Orders Flight Schedule : \n");
+                Console.WriteLine("\nOrders Flight Schedule : \n");
                 flightOrders.ForEach(Console.WriteLine);
             }
             catch (Exception ex)
